@@ -1,6 +1,6 @@
 {
   "name": "geoffwilliams-aix_trustchk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "geoffwilliams",
   "summary": "Manage Trusted Execution (TE) with Puppet on AIX using the trustchk command",
   "license": "Apache-2.0",
@@ -12,4 +12,3 @@
   ],
   "data_provider": null
 }
-

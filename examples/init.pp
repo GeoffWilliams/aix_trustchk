@@ -1,3 +1,3 @@
 aix_trustchk { "CHKEXEC":
-  value => "on",
+  value => "ON",
 }

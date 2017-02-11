@@ -23,10 +23,10 @@ aix_trustchk { "NAME_OF_TE_SETTING":
 ### Example
 ```puppet
 aix_trustchk { "CHKEXEC":
-  value => "on",
+  value => "ON",
 }
 ```
-In this case, we have set the `CHKEXEC` parameter to be `on`.
+In this case, we have set the `CHKEXEC` parameter to be `ON`.
 
 ## Reference
 

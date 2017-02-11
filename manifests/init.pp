@@ -12,7 +12,7 @@ define aix_trustchk(
   # trustchk prints informational messages to stderr ;-)
   exec { "aix_trustchk->${key}":
     command => "trustchk -p ${key}=${value}",
-    unless  => "trustchk -p ${key} 2>&1 | awk -F= '{print $2}'| grep ${value}",
+    unless  => "trustchk -p ${key} 2>&1 | awk -F= '{print \$2}'| grep ${value}",
     path    => ['/usr/sbin', '/usr/bin','/bin'],
   }
 }
