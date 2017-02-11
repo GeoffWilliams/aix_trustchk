@@ -31,7 +31,7 @@ In this case, we have set the `CHKEXEC` parameter to be `ON`.
 ## Reference
 
 ### Defined types
-* `aix_trustchk` - Manage individual tunable parameters using the `trustchk` command.
+* `aix_trustchk` - Manage individual TE parameters using the `trustchk` command.
 
 ## Limitations
 
